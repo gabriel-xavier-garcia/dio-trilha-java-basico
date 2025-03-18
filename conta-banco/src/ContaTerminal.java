@@ -24,9 +24,7 @@ public class ContaTerminal {
 
         System.out.println(usuario);
         
-
-
-
+        
         sc.close();
 
     }
