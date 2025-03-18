@@ -17,14 +17,15 @@ public class ContaTerminal {
         System.out.print("Informe o seu nome: ");
         sc.nextLine();
         String nomeCliente = sc.nextLine();
-        System.out.print("Informe o valor para inicializar sua conta: ");
+        System.out.print("Informe um valor para inicializar sua conta: ");
         double saldo = sc.nextDouble();
+        System.out.println();
 
         Usuario usuario = new Usuario(numero, agencia, nomeCliente, saldo);
 
         System.out.println(usuario);
         
-        
+
         sc.close();
 
     }
